@@ -5,9 +5,6 @@ def filterword(s : str, number : int) :
     s = [i for i in s if i not in string.punctuation]
     s = ''.join(s).split()
     print([i for i in s if len(i) > number])
-    # x = string.punctuation
-    # L = s.split("or")
-    # print(x, L)
 
 if __name__ == '__main__':
     if len(sys.argv) != 3 :
@@ -19,4 +16,3 @@ if __name__ == '__main__':
         print("ERROR")
         exit(1)    
     filterword(sys.argv[1], number)
-    
