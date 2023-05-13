@@ -1,5 +1,5 @@
-from recipe import *
-from book import *
+from recipe import Recipe
+from book import Book
 
 # Testing error recipe :
 
